@@ -1,0 +1,51 @@
+.messageWrapper {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #B5E520;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.avatar {
+    position: relative;
+    width: 50px;
+    border-radius: 50px;
+    top: 25px
+}
+
+.triangle {
+    position: relative;
+    right: 20px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #092107;
+    border-left: 10px solid transparent;
+}
+
+.messageContent {
+    position: relative;
+    background-color: #092107;
+    width: 70%;
+    margin: 15px;
+    border-radius: 5px 5px 5px 0;
+    padding: 10px;
+}
+
+.message {
+    color: #fff;
+}
+
+.name {
+    color: #A89DC9;
+}
+
+.time {
+    color: darkolivegreen;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
