@@ -1,7 +1,7 @@
 .messageWrapper {
     display: flex;
-    width: 400px;
-    height: 100px;
+    width: 250px;
+    height: 130px;
     background-color: #B5E520;
     padding: 5px;
     position: relative;
@@ -9,43 +9,49 @@
     margin: 5px;
 }
 
-.avatar {
-    position: relative;
-    width: 50px;
-    border-radius: 50px;
-    top: 25px
-}
-
-.triangle {
-    position: relative;
-    right: 20px;
-    top: 50px;
-    width: 0;
-    height: 0;
-    border-bottom: 10px solid #092107;
-    border-left: 10px solid transparent;
-}
-
-.messageContent {
-    position: relative;
-    background-color: #092107;
-    width: 70%;
-    margin: 15px;
-    border-radius: 5px 5px 5px 0;
-    padding: 10px;
-}
-
 .message {
-    color: #fff;
+    display: flex;
+    align-items: flex-end;
+
+    margin: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.content {
+    padding: 10px;
+
+    border-radius: 5px 5px 5px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(255, 255, 255, 0.3) 0);
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
 }
 
 .name {
-    color: #A89DC9;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
 }
 
 .time {
-    color: darkolivegreen;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+    color: rebeccapurple;
 }
+
