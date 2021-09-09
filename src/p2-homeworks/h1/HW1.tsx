@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 import Message from "./Message";
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Max',
-    message: 'Hey, my name is Max!',
-    time: '22:00',
+    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
+    name: "Max",
+    message: "Hey, my name is Max!",
+    time: "22:00",
 }
 
 function HW1() {
