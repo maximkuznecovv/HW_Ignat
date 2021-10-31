@@ -24,10 +24,10 @@
 .header {
     display: flex;
 
-    width: 200px;
+    width: 270px;
 
     transition-duration: 500ms;
-    transform: translate(-2200px);
+    transform: translate(-220px);
 }
 
 .header:hover {
